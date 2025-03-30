@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>현영</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input 
+            required maxlength="15"
+            type="text" placeholder="What is your name?" spellcheck="false"/>
+        <input type="submit" class="button-17" value="Log In"/>
+    </form>
+    <h2 id="clock">00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <input
+          required maxlength="15"
+          type="text" placeholder="What is your name?" spellcheck="false"/>
+      <input type="submit" class="button-17" value="Log In"/>
+  </form>
+  
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To-Do and Press Enter" required spellcheck="false"/>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/API_KEY.js"defer></script>
+    <script src="js/greeting.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer></script>
+    <script src="js/background.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <script src="/js/weather.js" defer></script>
+</body>
+</html>
